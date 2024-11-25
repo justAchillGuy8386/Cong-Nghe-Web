@@ -1,7 +1,7 @@
 
 <?php
 session_start();
-
+ 
 // Tạo thư mục 'uploads' nếu chưa tồn tại
 if (!is_dir('uploads')) {
     mkdir('uploads', 0777, true);
